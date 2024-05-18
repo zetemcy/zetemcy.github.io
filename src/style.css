@@ -1,9 +1,40 @@
 /* Estilos globales */
+:root{
+    /*Colores Basicos*/
+    --c-f:#fff;
+    --c-e:#eeeeee;
+    --c-0:#000;
+    --c-1:#111;
+    --c-2:#222;
+    --c-3:#333;
+    --c-4:#444;
+    --c-5:#555;
+    --c-6:#666;
+    --c-7:#777;
+    --c-8:#888;
+    --c-9:#999;
+    --c-10:#900;
+    --c-11:#090;
+    --c-12:#009;
+    --c-13:#990;
+    --c-14:#099;
+    --c-15:#909;
+    --c-16:#059;
+    --c-17:#590;
+    --c-18:#095;
+    --c-19:#00ffff;
+    --c-20:#ffa600;
+
+    /*Color Fondo Base*/
+    --m-bg-c:#333;
+}
+
+
 body {
     font-family: Arial, sans-serif;
     margin: 0;
     padding: 0;
-    background-color: #f9f9f9;
+    background-color: var(--m-bg-c);
 }
 .container {
     max-width: 1200px;
@@ -12,8 +43,8 @@ body {
 }
 /* Encabezado */
 header {
-    background-color: #333;
-    color: #fff;
+    background-color: var(--m-bg-c);
+    color:var(--c-f);
     text-align: center;
     padding: 20px 0;
 }
@@ -23,7 +54,7 @@ h1 {
 }
 .menu{
     padding: 5px;
-    background-color: #3d3c3c;
+    background-color:var(--c-4);
 }
 ul.navega li {
     display: inline;
@@ -31,12 +62,12 @@ ul.navega li {
 }
 ul.navega li:hover {
     display: inline;
-    color: aqua;
+    color: var(--c-19);
 
 }
 /* Contenido principal */
 .main-content {
-    background-color: #fff;
+    background-color: var(--c-e);
     padding: 20px;
     border-radius: 5px;
     box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
@@ -46,8 +77,8 @@ footer {
     text-align: center;
     padding: 10px 0;
     margin-top: 0px;
-    background-color: #333;
-    color: #fff;
+    background-color: var(--m-bg-c);
+    color: var(--c-f);
 }
 
 #imgfooter {
