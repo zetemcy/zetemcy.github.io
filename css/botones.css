@@ -1,0 +1,104 @@
+.caja{
+    flex-direction: column;
+}
+
+.caja2{
+    display: flex;
+    gap: 20px;
+}
+#textos{
+    text-align: center;
+  color:darkviolet;  
+  text-shadow: 0 0 2px rgb(63, 63, 63);
+}
+.parpadea {
+  
+    animation-name: parpadeo;
+    animation-duration: 1s;
+    animation-timing-function: linear;
+    animation-iteration-count: infinite;
+  
+    -webkit-animation-name:parpadeo;
+    -webkit-animation-duration: 5s;
+    -webkit-animation-timing-function: linear;
+    -webkit-animation-iteration-count: infinite;
+  }
+  
+  @-moz-keyframes parpadeo{  
+    0% { opacity: 1.0; }
+    50% { opacity: 0.0; }
+    100% { opacity: 1.0; }
+  }
+  
+  @-webkit-keyframes parpadeo {  
+    0% { opacity: 1.0; }
+    50% { opacity: 0.0; }
+     100% { opacity: 1.0; }
+  }
+  
+  @keyframes parpadeo {  
+    0% { opacity: 1.0; }
+     50% { opacity: 0.0; }
+    100% { opacity: 1.0; }
+  }
+#caja1{
+    margin: 25px;
+    padding: 30px;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgb(10, 29, 18);
+    color: white;
+    font-size:2rem;
+    background-color: seagreen;
+    border-bottom: 0px solid seagreen;
+}
+#caja1:hover{
+    margin: 25px;
+    padding: 30px;
+    border-radius: 10px;
+    box-shadow: 1px 1px 9px 3px teal;
+    color: white;
+    font-size:2rem;
+    background-color: teal;
+    border-bottom: 0px solid teal;
+}
+#caja2{
+    margin: 25px;
+    padding: 30px;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgb(0, 0, 0);
+    color: white;
+    font-size:2rem;
+    background-color: seagreen;
+    border-bottom: 1px solid seagreen;
+}
+#caja2:hover{
+    margin: 25px;
+    padding: 30px;
+    border-radius: 10px;
+    box-shadow: 1px 3px 15px 1px steelblue;
+    color: white;
+    font-size:2rem;
+    background-color: steelblue;
+    border-bottom: 0px solid steelblue;
+}
+#caja3{
+    margin: 25px;
+    padding: 30px;
+    border-radius: 10px;
+    box-shadow: 1px 1px 1px 1px seagreen;
+    color: white;
+    font-size:2rem;
+    background-color: seagreen;
+    border-bottom: 0px solid seagreen;
+}
+
+#caja3:hover {
+    margin: 25px;
+    padding: 30px;
+    border-radius: 10px;
+    box-shadow: 1px 1px 11px 1px slateblue;
+    color: white;
+    font-size:2rem;
+    background-color: slateblue;
+    border-bottom: 0px solid slateblue;
+}

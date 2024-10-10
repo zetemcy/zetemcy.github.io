@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Tablas de multiplicar</title>
+    <style>
+        body{
+            text-align: center;
+        }
+        #resultado{
+            margin: 5% 40%;
+            border: 1px solid gray;
+        }
+    </style>
+</head>
+<body>
+    <h1>Tablas de multiplicar</h1>
+    <label for="">Seleccione una tabla para generar</label><br>
+    <select name="Tablas" id="tabla" >
+        <option value="1">Tabla del 1</option>
+        <option value="2">Tabla del 2</option>
+        <option value="3">Tabla del 3</option>
+        <option value="4">Tabla del 4</option>
+        <option value="5">Tabla del 5</option>
+        <option value="6">Tabla del 6</option>
+        <option value="7">Tabla del 7</option>
+        <option value="8">Tabla del 8</option>
+        <option value="9">Tabla del 9</option>
+        <option value="10">Tabla del 10</option>
+    </select>
+    <button type="button" onclick="generarTabla()">Generar Tabla</button>
+    <hr>
+    <p>Resultado:</p>
+    <div id="resultado"></div>   
+    <script src="../js/12_multiplicar.js"></script>
+</body>
+</html>

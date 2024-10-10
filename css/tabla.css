@@ -1,0 +1,29 @@
+#tabla{
+    display: flex;
+    justify-content: center;
+}
+#tabla td{
+    border: 1px solid;
+    padding: 25px;
+}
+#Encabezadotabla{
+    background-color: goldenrod;
+    text-decoration: underline;
+    font-size: 20px;
+
+}
+#a1{
+    background-color: aquamarine;
+}
+#a1:hover,#a2:hover,#a3:hover,#a4:hover{
+    background-color: white;
+}
+#a2{
+    background-color: chartreuse;
+}
+#a3{
+    background-color: rgb(13, 82, 82);
+}
+#a4{
+    background-color: darkorange;
+}
